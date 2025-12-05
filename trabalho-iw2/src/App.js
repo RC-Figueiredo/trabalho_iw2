@@ -3,7 +3,6 @@ import Home from './pages/home';
 import Sobre from './pages/sobre';
 import Ajuda from './pages/ajuda';
 import Contato from './pages/contato';
-import Estilo from './components/style/estilo.css';
 
 export default function App(){
   return(

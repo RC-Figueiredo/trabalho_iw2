@@ -9,6 +9,7 @@
     text-decoration: none;
     font-size:larger;
     color: black;
+    border-radius: 5px;
 }
 .link:hover{
     background-color: black;
@@ -16,10 +17,100 @@
     padding: 15px;
 }
 .container{
-    height: 89vh;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
 }
 .title{
-    color: rgb(0, 1, 1);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
+/* titulo dentro da div */
+.titulo{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*  incio do estilo tela home */
+.login{
+    background-color: rgb(60, 59, 59);
+    height: 35%;
+    width: 40%;
+    margin-top: 20%;
+    border-radius: 16px;
+    border: 2px rgba(128, 128, 128, 0.501) solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.93);
+}
+.btn_login{
+    width: 325px;
+    height: 35px;
+    border-radius: 8px;
+    background-color:#2805db;
+    color: #e6e6e6;
+    border: none;
+    box-shadow: 0 4px 12px  rgba(0, 0, 0, 0.93);
+}
+/* fim do estilo da tela home */
+
+input{
+    flex-direction: column;
+    display: flex;
+    height: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius:8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.93);
+}
+
+/* inicio tela sobre */
+.sobre{
+    width: 50%;
+    color: white;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+/* fim tela sobre */
+
+/* inicio tela contato */
+.contato{
+    margin: 5%;
+    background-color: rgb(30, 149, 0);
+    height: 50%;
+    width: 50%;
+    color: white;
+    font-size: 18px;
+    flex-direction: column;
+    padding: 5%;
+    border: 2px white solid;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.93);
+}
+/*fim tela contato */
+
+/* inicio tela ajuda */
+.ajuda{
+    width: 50%;
+    height: 25%;
+    margin: 5%;
+    border: 2px white solid;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.93);
+    background-color: #bec100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*fim tela ajuda */
